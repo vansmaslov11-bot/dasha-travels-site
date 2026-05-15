@@ -12,7 +12,7 @@ html{
 
 body{
     font-family:'Montserrat',sans-serif;
-    background:#f5f5f5;
+    background:#f4f7fb;
     color:#222;
     overflow-x:hidden;
 }
@@ -29,15 +29,13 @@ body{
     top:0;
     left:0;
     z-index:1000;
-    background:rgba(0,0,0,0.55);
-    backdrop-filter:blur(10px);
+    background:#0f172a;
 }
 
 .logo{
-    color:white;
-    font-size:28px;
+    color:#60a5fa;
+    font-size:30px;
     font-weight:700;
-    font-family:'Playfair Display',serif;
 }
 
 .nav{
@@ -54,7 +52,7 @@ body{
 }
 
 .nav a:hover{
-    color:#d4af37;
+    color:#60a5fa;
 }
 
 /* HERO */
@@ -87,9 +85,8 @@ body{
 }
 
 .hero-content h1{
-    font-size:72px;
+    font-size:70px;
     margin-bottom:25px;
-    font-family:'Playfair Display',serif;
 }
 
 .hero-content p{
@@ -100,8 +97,8 @@ body{
 
 .hero-btn{
     display:inline-block;
-    padding:16px 45px;
-    background:#d4af37;
+    padding:16px 40px;
+    background:#60a5fa;
     color:white;
     text-decoration:none;
     border-radius:50px;
@@ -111,30 +108,29 @@ body{
 
 .hero-btn:hover{
     background:white;
-    color:#d4af37;
+    color:#0f172a;
 }
 
-/* ABOUT */
+/* ADVANTAGES */
 
-.about{
+.advantages{
     padding:100px 40px;
     text-align:center;
 }
 
-.about h2{
+.advantages h2{
     font-size:50px;
     margin-bottom:60px;
-    font-family:'Playfair Display',serif;
 }
 
-.about-container{
+.advantages-container{
     display:flex;
     justify-content:center;
     gap:30px;
     flex-wrap:wrap;
 }
 
-.about-card{
+.adv-card{
     width:320px;
     background:white;
     padding:40px 30px;
@@ -143,17 +139,17 @@ body{
     transition:0.4s;
 }
 
-.about-card:hover{
+.adv-card:hover{
     transform:translateY(-10px);
 }
 
-.about-card h3{
+.adv-card h3{
     margin-bottom:20px;
-    color:#d4af37;
+    color:#2563eb;
     font-size:24px;
 }
 
-.about-card p{
+.adv-card p{
     line-height:1.6;
 }
 
@@ -167,7 +163,6 @@ body{
 .destinations-page h1{
     font-size:55px;
     margin-bottom:60px;
-    font-family:'Playfair Display',serif;
 }
 
 .destination-grid{
@@ -200,7 +195,7 @@ body{
 
 .destination-info h3{
     margin-bottom:15px;
-    color:#d4af37;
+    color:#2563eb;
     font-size:28px;
 }
 
@@ -212,7 +207,7 @@ body{
 .destination-info a{
     display:inline-block;
     padding:12px 30px;
-    background:#d4af37;
+    background:#60a5fa;
     color:white;
     text-decoration:none;
     border-radius:50px;
@@ -220,7 +215,7 @@ body{
 }
 
 .destination-info a:hover{
-    background:#222;
+    background:#0f172a;
 }
 
 /* CONTACT */
@@ -248,7 +243,6 @@ body{
 .contact-container h1{
     text-align:center;
     margin-bottom:30px;
-    font-family:'Playfair Display',serif;
     font-size:42px;
 }
 
@@ -275,7 +269,7 @@ form button{
     padding:15px;
     border:none;
     border-radius:50px;
-    background:#d4af37;
+    background:#60a5fa;
     color:white;
     cursor:pointer;
     transition:0.3s;
@@ -284,13 +278,13 @@ form button{
 
 form button:hover{
     background:white;
-    color:#d4af37;
+    color:#0f172a;
 }
 
 /* FOOTER */
 
 .footer{
-    background:#111;
+    background:#0f172a;
     color:white;
     text-align:center;
     padding:25px;
@@ -315,34 +309,30 @@ form button:hover{
     }
 
     .hero-content h1{
-        font-size:46px;
+        font-size:42px;
     }
 
     .hero-content p{
         font-size:18px;
     }
 
-    .about h2,
+    .advantages h2,
     .destinations-page h1,
     .contact-container h1{
-        font-size:38px;
+        font-size:36px;
     }
 
-    .about,
+    .advantages,
     .destinations-page{
         padding:80px 20px;
     }
 
-    .about-card{
+    .adv-card{
         width:100%;
     }
 
     .destination-grid{
         grid-template-columns:1fr;
-    }
-
-    .contact-container{
-        padding:40px 20px;
     }
 
 }
